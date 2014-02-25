@@ -23,7 +23,7 @@ public class PersonTest {
     }
 
     @Test
-    public void getAllAgeByJohn() {
+    public void sumOfAgesTest() {
 
         final int sommeDesAges = PersonsDB.PERSONSDB.stream()
                 .filter((person) -> person.getFirstName().startsWith("John"))
